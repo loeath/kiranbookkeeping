@@ -219,8 +219,8 @@ p:last-child {
 Section
 */
 .sections {
-    padding-top:80px;
-    padding-bottom:80px;
+    padding-top:20px;
+    padding-bottom:20px;
     position: relative;
     overflow: hidden;
 }
@@ -428,7 +428,7 @@ input:-ms-input-placeholder {
 }
 .heading-content  p{
     color:#212121;
-    width: 35%;
+    width: 75%;
     margin: 0 auto;
     line-height: 30px;
 }
@@ -439,9 +439,9 @@ input:-ms-input-placeholder {
 .heading-content2  h4{
     text-transform:uppercase;
     color:#7b6c63;
-    font-weight: 500;
+    font-weight: 580;
     margin-bottom: 25px;
-    font-size: 24px;
+    font-size: 32px;
 }
 .heading-content2  p{
     color:#212121;
@@ -455,8 +455,8 @@ input:-ms-input-placeholder {
 .navbar-default {
     background-color:#303030;
     border-color:0;
-    height:95px;
-    padding-top:15px;
+    height:68px;
+    /* padding-top:15px; */
 }
 
 .navbar {
@@ -465,6 +465,8 @@ input:-ms-input-placeholder {
     margin-bottom:0;
     border: 1px solid transparent;
     border-radius:0;
+    height: 62px;
+    margin-top: -6px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -481,6 +483,7 @@ input:-ms-input-placeholder {
     border-bottom:3px solid #7b6c63;
     color:#fff;
 }
+
 
 /*For Home Section*/
 
@@ -557,6 +560,10 @@ input:-ms-input-placeholder {
 }
 
 /*For service Area*/
+.service-content {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 .service-content i{
     color#7b6c63;
@@ -567,7 +574,7 @@ input:-ms-input-placeholder {
     text-transform: uppercase;
     font-size: 18px;
     margin-top: 15px;
-}
+   }
 
 /*For Skill Area*/
 

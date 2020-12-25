@@ -77,10 +77,12 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     border:0;
 	border-top:0;
 	background:#222222;
-	}
+    margin-top: 10px;	
+}
 	.navbar {
     min-height: 50px;
 	}
+	
 	.main-skill{
 		margin-bottom:30px;
 	}
@@ -124,10 +126,15 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	.project-item:hover .project-content {
     bottom: 110px;
 	}
-
+	
 }
 
 
+@media (max-width: 355px) {
+.navbar-brand.secondary {
+	display:none;
+}
+}
 
 @media (max-width: 320px) {
 
@@ -196,7 +203,10 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	.copyright-footer .copyright p {
     font-size: 12px;
 	}
-	
+	.navbar-brand.secondary {
+		display:none;
+		transform: scaleX(0.7);
+	}
 	
 }
 
