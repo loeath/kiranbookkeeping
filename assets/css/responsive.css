@@ -55,10 +55,12 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	.home-content h1 {
 		font-size: 42px;
 	}
+
 	.heading-content p {
 		width: 90%;
-		font-size:18px;
+		font-size: 18px;
 	}
+
 	.main-team {
 		margin-bottom: 30px;
 	}
@@ -111,6 +113,18 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 		left: 255px;
 	}
 
+	.service-content p {
+		font-size: 18px;
+		line-height: 20px;
+	}
+	.about-img img {
+		min-height: 280px;
+		width: 100%;
+	}
+	.overlay-img {
+		height: 300px;
+		margin-top: -60px;
+	}
 }
 
 
@@ -131,7 +145,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 
 	.heading-content p {
 		width: 90%;
-		font-size:18px;
+		font-size: 18px;
 	}
 
 	#footer p {
@@ -149,9 +163,10 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	.navbar-brand.secondary {
 		display: none;
 	}
-	.about-content p{
-		line-height: 18px;
-		font-size: 16px;
+
+	.about-content p {
+		line-height: 20px;
+		font-size: 17px;
 	}
 }
 
